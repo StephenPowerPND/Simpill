@@ -1,0 +1,34 @@
+name: "Build Signed APK"
+description: "Build a APK of your Android application"
+
+branding:
+  icon: cpu
+  color: red
+
+inputs:
+
+  gradlew_dir:
+    description: "Directory of the gradlew file"
+    required: false
+    default: "."
+
+  java_version:
+    description: "Java version to build the project with"
+    required: false
+    default: '11'
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Build APK
+      shell: bash
+      working-directory: ${{ inputs.gradlew_dir }}
+      run: |
+        export JAVA_HOME="/usr/lib/jvm/temurin-${{ inputs.java_version }}-jdk-amd64"
+        chmod +x ./gradlew
+        ./gradlew build --no-daemon
+        ./gradlew assembleRelease --no-daemon \
+
+
+ 
