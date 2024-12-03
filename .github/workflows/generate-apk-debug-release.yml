@@ -1,4 +1,4 @@
-name: Generated APK AAB (Upload - Create Artifact To Github Action)
+name: Generated APK (Upload - Create Artifact To Github Action)
 
 on:
   push:
