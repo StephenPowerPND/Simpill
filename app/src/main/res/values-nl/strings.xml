@@ -12,21 +12,21 @@
     <!--Content Description Strings-->
     <string name="clock_content_description">Klok</string>
     <string name="calendar_content_description">Agenda Pictogram</string>
-    <string name="pill_bottle_content_description">Pictogram pillendoos</string>
-    <string name="pill_content_description">Pictogram pil</string>
+    <string name="pill_bottle_content_description">Pictogram medicatiedoos</string>
+    <string name="pill_content_description">Pictogram medicatie</string>
     <string name="reset_pill_content_description">De resetknop voor de pil</string>
-    <string name="purple_pill_bottle_content_description">Een doosje doorzichtige paarse pillen</string>
-    <string name="light_purple_pill_bottle_content_description">Een doos hemelsblauwe pillen</string>
-    <string name="light_blue_pill_bottle_content_description">Een doosje doorzichtige paarse pillen</string>
-    <string name="red_pill_bottle_content_description">Een doosje rode pillen</string>
-    <string name="light_red_pill_bottle_content_description">Een doosje lichtrode pillen</string>
-    <string name="pink_pill_bottle_content_description">Een doosje roze pillen</string>
-    <string name="dark_green_pill_bottle_content_description">Een doosje donkergroene pillen</string>
-    <string name="green_pill_bottle_content_description">Een doosje groene pillen</string>
-    <string name="light_green_pill_bottle_content_description">Een doosje lichtgroene pillen</string>
-    <string name="dark_orange_pill_bottle_content_description">Een doosje donkeroranje pillen</string>
-    <string name="orange_pill_bottle_content_description">Een doosje oranje pillen</string>
-    <string name="light_orange_pill_bottle_content_description">Een doosje lichtoranje pillen</string>
+    <string name="purple_pill_bottle_content_description">Een doosje doorzichtige paarse medicatie</string>
+    <string name="light_purple_pill_bottle_content_description">Een doos hemelsblauwe medicatie</string>
+    <string name="light_blue_pill_bottle_content_description">Een doosje doorzichtige paarse medicatie</string>
+    <string name="red_pill_bottle_content_description">Een doosje rode medicatie</string>
+    <string name="light_red_pill_bottle_content_description">Een doosje lichtrode medicatie</string>
+    <string name="pink_pill_bottle_content_description">Een doosje roze medicatie</string>
+    <string name="dark_green_pill_bottle_content_description">Een doosje donkergroene medicatie</string>
+    <string name="green_pill_bottle_content_description">Een doosje groene medicatie</string>
+    <string name="light_green_pill_bottle_content_description">Een doosje lichtgroene medicatie</string>
+    <string name="dark_orange_pill_bottle_content_description">Een doosje donkeroranje medicatie</string>
+    <string name="orange_pill_bottle_content_description">Een doosje oranje medicatie</string>
+    <string name="light_orange_pill_bottle_content_description">Een doosje lichtoranje medicatie</string>
     <string name="warning_icon_content_description">Waarschuwingspictogram</string>
     <string name="blue_theme_button_content_description">Blauwe themaknop</string>
     <string name="grey_theme_button_content_description">Grijze themaknop</string>
@@ -52,7 +52,7 @@
     <string name="sticky">Sticky Meldingen</string>
     <string name="_24_hour_format">24-uurs indeling</string>
     <string name="database">Databank</string>
-    <string name="delete_all_pills">Verwijder alle pillen</string>
+    <string name="delete_all_pills">Verwijder alle medicatie</string>
 
 
     <string name="theme_applied">%1$s toegepast thema :)</string><!--1st parameter is the theme color e.g. blue-->
@@ -84,19 +84,19 @@
     <string name="sticky_notifications_disabled_toast">Sticky meldingen uitgeschakeld.</string>
     <string name="unknown_error_toast">Onbekende foutmelding in Simpill :(</string>
     <!--1st parameter = name of the updated pill-->
-    <string name="pill_db_deleted_toast">Alle pillen verwijderd.</string>
+    <string name="pill_db_deleted_toast">Alle medicatie verwijderd.</string>
     <string name="append_pill_deleted_toast">%1$s verwijderd.</string> <!--1st parameter = name of the deleted pill-->
-    <string name="pill_bottle_amount_toast">Je hebt nog %1$d %2$s pillen over.</string> <!--1st parameter = current pill amount     2nd parameter = pill name-->
+    <string name="pill_bottle_amount_toast">Je hebt nog %1$d %2$s medicatie over.</string> <!--1st parameter = current pill amount     2nd parameter = pill name-->
 
     <!--Stockup Notification Strings-->
     <!--1st parameter = name of pill-->
 
     <!--Reminder Notification Strings-->
-    <string name="reminder_notification_description">Het is tijd om je medicijnen in te nemen: %1$s :)</string> <!--1st parameter = name of pill-->
+    <string name="reminder_notification_description">Het is tijd om je medicatie in te nemen: %1$s :)</string> <!--1st parameter = name of pill-->
 
     <!--Welcome Dialog Strings-->
     <string name="welcome_dialog_title">Welcome</string>
-    <string name="welcome_dialog_message">Om je eerste pil te maken, selecteer je de plusknop onderaan je scherm.</string>
+    <string name="welcome_dialog_message">Om je eerste medicatie te maken, selecteer je de plusknop onderaan je scherm.</string>
 
     <!--Pill Name Dialog Strings-->
     <string name="pill_name_dialog_title">Naam medicatie</string>
@@ -112,8 +112,8 @@
     <string name="pill_deletion_dialog_message">Weet je zeker dat je %1$s wilt verwijderen?\n\n Dit kan niet ongedaan worden gemaakt!</string> <!--1st parameter = name of pill-->
 
     <!--Delete Database Dialog Strings-->
-    <string name="pill_db_reset_dialog_title">Delete Pills</string>
-    <string name="pill_db_reset_dialog_message">Wil je de hele pillendatabase verwijderen?\n\nWARNING: Hiermee worden alle pillen verwijderd - dit KAN NIET ongedaan worden gemaakt!</string>
+    <string name="pill_db_reset_dialog_title">Verwijder medicatie</string>
+    <string name="pill_db_reset_dialog_message">Wil je de hele medicatiedatabase verwijderen?\n\nWARNING: Hiermee worden alle pillen verwijderd - dit KAN NIET ongedaan worden gemaakt!</string>
 
     <!--Pill Reset Dialog Strings-->
     <string name="reset_pill_dialog_title">Opnieuw instellen?</string>
@@ -143,7 +143,7 @@
     <!--Date Time Formatting Strings (Very fragile, do not touch)-->
 
 
-    <string name="take_pill_content_description">Knop Pill innemen</string>
+    <string name="take_pill_content_description">Knop medicatie innemen</string>
     <string name="choose_times_per_day_dialog_message">Hoeveel keer per dag neemt u deze medicatie?</string>
 
 
@@ -212,7 +212,7 @@
     <string name="no_song_selected">Geen audiobestand geselecteerd.</string>
     <string name="its_time">Het is %1$s!</string>
     <string name="paypal">Paypal</string>
-    <string name="no_pills_found">Geen pillen gevonden.\n(╯°□°）╯︵ ┻━┻</string>
+    <string name="no_pills_found">Geen medicatie gevonden.\n(╯°□°）╯︵ ┻━┻</string>
     <string name="add">Toevoegen</string>
     <string name="optional">Optioneel</string>
     <string name="reminder">Herinnering</string>
@@ -221,7 +221,7 @@
     <string name="user_reminder_times">Herinneringstijden:\n12:00pm,</string>
     <string name="user_frequency">Frequentie:\nElke 3 dagen</string>
     <string name="user_notification">Type:\nNotificatie</string>
-    <string name="user_alarm_sound">Geluid:\nOnheilsalarm</string>
+    <string name="user_alarm_sound">Geluid:\nNotificatie alarm</string>
     <string name="crash_dialog_title">Oh neen :(</string>
     <string name="report">rapport</string>
     <string name="open">Open</string>
