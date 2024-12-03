@@ -24,15 +24,15 @@ jobs:
       - name: Set repository name as env variable
         run: echo "repository_name=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
 
-      - name: Set Up JDK
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'zulu' # See 'Supported distributions' for available options
-          java-version: '17'
-          cache: 'gradle'
+steps:
+        - uses: actions/checkout@v1
+        - name: set up JDK
+          uses: actions/setup-java@v1
+          with:
+            java-version: 18
 
-      - name: Change wrapper permissions
-        run: chmod +x ./gradlew
+        - name: Change wrapper permissions
+          run: chmod +x ./gradlew
 
       # Run Tests Build
       - name: Run gradle tests
