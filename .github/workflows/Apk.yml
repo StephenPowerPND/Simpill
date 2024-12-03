@@ -20,6 +20,9 @@ inputs:
 runs:
   using: "composite"
   steps:
+  
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v2
 
     - name: Build APK
       shell: bash
