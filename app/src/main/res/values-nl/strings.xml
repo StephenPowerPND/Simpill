@@ -7,7 +7,7 @@
     <string name="no">Neen</string>
     <string name="ok" tools:ignore="ButtonCase,Typos">Ok</string>
     <string name="taken">Genomen</string>
-    <string name="dismiss">Overgeslagen</string>
+    <string name="dismiss">Overslaan</string>
 
     <!--Content Description Strings-->
     <string name="clock_content_description">Klok</string>
