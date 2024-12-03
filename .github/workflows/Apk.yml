@@ -1,20 +1,19 @@
 name: "Build Signed APK"
 
- runs:
-  using: "composite"
-  steps:
-  
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
+runs:
+   using: "composite"
+   steps:
+     - name: Setup Android SDK
+       uses: android-actions/setup-android@v2
 
-    - name: Build APK
-      shell: bash
-      working-directory: ${{ inputs.gradlew_dir }}
-      run: |
-        export JAVA_HOME="/usr/lib/jvm/temurin-${{ inputs.java_version }}-jdk-amd64"
-        chmod +x ./gradlew
-        ./gradlew build --no-daemon
-        ./gradlew assembleRelease --no-daemon \
+     - name: Build APK
+       shell: bash
+       working-directory: ${{ inputs.gradlew_dir }}
+       run: |
+         export JAVA_HOME="/usr/lib/jvm/temurin-${{ inputs.java_version }}-jdk-amd64"
+         chmod +x ./gradlew
+         ./gradlew build --no-daemon
+         ./gradlew assembleRelease --no-daemon \
 
 
  
