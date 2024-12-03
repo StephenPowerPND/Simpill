@@ -1,23 +1,6 @@
 name: "Build Signed APK"
-description: "Build a APK of your Android application"
 
-branding:
-  icon: cpu
-  color: red
-
-inputs:
-
-  gradlew_dir:
-    description: "Directory of the gradlew file"
-    required: false
-    default: "."
-
-  java_version:
-    description: "Java version to build the project with"
-    required: false
-    default: '11'
-
-runs:
+ runs:
   using: "composite"
   steps:
   
