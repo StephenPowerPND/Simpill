@@ -1,0 +1,231 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" translatable="false">Simpill</string>
+
+    <!--General Strings-->
+    <string name="yes">Ja</string>
+    <string name="no">Neen</string>
+    <string name="ok" tools:ignore="ButtonCase,Typos">Ok</string>
+    <string name="taken">Genomen</string>
+    <string name="dismiss">Overgeslagen</string>
+
+    <!--Content Description Strings-->
+    <string name="clock_content_description">Klok</string>
+    <string name="calendar_content_description">Agenda Pictogram</string>
+    <string name="pill_bottle_content_description">Pictogram pillendoos</string>
+    <string name="pill_content_description">Pictogram pil</string>
+    <string name="reset_pill_content_description">De resetknop voor de pil</string>
+    <string name="purple_pill_bottle_content_description">Een doosje doorzichtige paarse pillen</string>
+    <string name="light_purple_pill_bottle_content_description">Een doos hemelsblauwe pillen</string>
+    <string name="light_blue_pill_bottle_content_description">Een doosje doorzichtige paarse pillen</string>
+    <string name="red_pill_bottle_content_description">Een doosje rode pillen</string>
+    <string name="light_red_pill_bottle_content_description">Een doosje lichtrode pillen</string>
+    <string name="pink_pill_bottle_content_description">Een doosje roze pillen</string>
+    <string name="dark_green_pill_bottle_content_description">Een doosje donkergroene pillen</string>
+    <string name="green_pill_bottle_content_description">Een doosje groene pillen</string>
+    <string name="light_green_pill_bottle_content_description">Een doosje lichtgroene pillen</string>
+    <string name="dark_orange_pill_bottle_content_description">Een doosje donkeroranje pillen</string>
+    <string name="orange_pill_bottle_content_description">Een doosje oranje pillen</string>
+    <string name="light_orange_pill_bottle_content_description">Een doosje lichtoranje pillen</string>
+    <string name="warning_icon_content_description">Waarschuwingspictogram</string>
+    <string name="blue_theme_button_content_description">Blauwe themaknop</string>
+    <string name="grey_theme_button_content_description">Grijze themaknop</string>
+    <string name="purple_theme_button_content_description">Paarse themaknop</string>
+    <string name="plus_button">Plusknop</string>
+    <string name="minus_button">Minusknop</string>
+
+    <!--Create/Update Pill Strings-->
+    <string name="enter_pill_name">Pillnaam?</string>
+    <string name="enter_pill_time_reminders">Herinnering?</string>
+    <string name="enter_pill_refill_date_reminder">Hervuldatum?</string>
+    <string name="enter_pill_amount">Bevoorrading?</string>
+    <string name="create_pill_btn">Creëer</string>
+
+    <!--Create/Update Pill Warning Strings-->
+    <!--1st param is pill name-->
+
+    <!--Settings Strings-->
+    <string name="settings">Instellingen</string>
+    <string name="theme">Thema</string>
+    <string name="time">Tijd</string>
+    <string name="notifications">Meldingen</string>
+    <string name="sticky">Sticky Meldingen</string>
+    <string name="_24_hour_format">24-uurs indeling</string>
+    <string name="database">Databank</string>
+    <string name="delete_all_pills">Verwijder alle pillen</string>
+
+
+    <string name="theme_applied">%1$s toegepast thema :)</string><!--1st parameter is the theme color e.g. blue-->
+    <string name="select_theme_dialog_title">Selecteer</string>
+    <string name="change_theme">Thema wijzigen</string>
+
+    <!--About Strings-->
+    <string name="simpillAboutParagraph_1">Simpill is een gratis en open-source medicatieherinneringsapp zonder trackers, vervelende advertenties of onnodige toestemmingen.</string>
+    <string name="simpillAboutParagraph_2">Simpill is volledig gratis en genereert geen inkomsten uit advertenties of de verkoop van gegevens. Als je Simpill en de toekomstige ontwikkeling ervan wilt steunen, zijn er een aantal donatiemogelijkheden:</string>
+
+    <string name="monero" translatable="false">Monero</string>
+    <string name="bitcoin" translatable="false">Bitcoin</string>
+    <string name="monero_address" translatable="false">86ywTu1eDABJB2CxGf9mwMbX6ibfc7pga1XusQCrfvMYdNpNPto1BaDSbWeas13Nkg3iLigkzS7wSGc8YoQxEkHhHdrA4Ni</string>
+    <string name="bitcoin_address" translatable="false">bc1qmx2fpalg6lk4hur4pqgsnz0ts8q6wsm47j8w9p</string>
+
+    <!--Pill Time TextView Strings-->
+    <string name="take_at">Neem op %1$s</string><!--1st parameter is the reminder times-->
+    <string name="take_at_custom_interval">Neem op %1$s\n(%2$s)</string><!--1st parameter are the reminder times-->
+    <string name="taken_at">Neem op %1$s</string><!--1st parameter is the time the pill has been taken at by user-->
+
+    <!--Toast Strings-->
+    <!--1st parameter = name of created pill-->
+    <string name="device_restart_toast">Alarmsignalen voor Simpill opnieuw instellen :)</string>
+    <string name="time_format_24hr_toast">Tijdweergave ingesteld op 24 uur.</string>
+    <string name="time_format_12hr_toast">Tijdweergave ingesteld op 12 uur.</string>
+    <string name="pill_taken_toast">%1$s ingenomen.</string> <!--1st parameter = name of pill-->
+    <string name="pill_reset_toast">%1$s opnieuw ingesteld.</string> <!--1st parameter = name of pill-->
+    <string name="sticky_notifications_enabled_toast">Sticky meldingen ingeschakeld.</string>
+    <string name="sticky_notifications_disabled_toast">Sticky meldingen uitgeschakeld.</string>
+    <string name="unknown_error_toast">Onbekende foutmelding in Simpill :(</string>
+    <!--1st parameter = name of the updated pill-->
+    <string name="pill_db_deleted_toast">Alle pillen verwijderd.</string>
+    <string name="append_pill_deleted_toast">%1$s verwijderd.</string> <!--1st parameter = name of the deleted pill-->
+    <string name="pill_bottle_amount_toast">Je hebt nog %1$d %2$s pillen over.</string> <!--1st parameter = current pill amount     2nd parameter = pill name-->
+
+    <!--Stockup Notification Strings-->
+    <!--1st parameter = name of pill-->
+
+    <!--Reminder Notification Strings-->
+    <string name="reminder_notification_description">Het is tijd om je medicijnen in te nemen: %1$s :)</string> <!--1st parameter = name of pill-->
+
+    <!--Welcome Dialog Strings-->
+    <string name="welcome_dialog_title">Welcome</string>
+    <string name="welcome_dialog_message">Om je eerste pil te maken, selecteer je de plusknop onderaan je scherm.</string>
+
+    <!--Pill Name Dialog Strings-->
+    <string name="pill_name_dialog_title">Naam pil</string>
+    <string name="pill_name_dialog_msg">Voer een naam in voor uw medicatie door op de regel hieronder te klikken:\n</string>
+    <string name="pill_name_dialog_text_hint">Naam - hou het kort :)</string>
+
+    <!--Pill Amount Dialog Strings-->
+    <string name="done">Klaar</string>
+    <string name="choose_pill_amount_dialog_title">Bedrag</string>
+
+    <!--Delete Pill Dialog Strings-->
+    <string name="pill_deletion_dialog_title">Verwijderen?</string>
+    <string name="pill_deletion_dialog_message">Weet je zeker dat je %1$s wilt verwijderen?\n\n Dit kan niet ongedaan worden gemaakt!</string> <!--1st parameter = name of pill-->
+
+    <!--Delete Database Dialog Strings-->
+    <string name="pill_db_reset_dialog_title">Delete Pills</string>
+    <string name="pill_db_reset_dialog_message">Wil je de hele pillendatabase verwijderen?\n\nWARNING: Hiermee worden alle pillen verwijderd - dit KAN NIET ongedaan worden gemaakt!</string>
+
+    <!--Pill Reset Dialog Strings-->
+    <string name="reset_pill_dialog_title">Opnieuw instellen?</string>
+    <string name="reset_pill_dialog_message">Wilt u de ingenomen status van %1$s?</string>
+
+    <!--Past Date Dialog Strings-->
+
+    <!--Extra Reminder Dialog Strings-->
+
+    <!--Frequency Dialog Strings-->
+    <string name="choose_frequency_dialog_message">Hoe vaak neemt u deze medicatie?</string>
+    <string name="choose_frequency_dialog_title">Frequentie</string>
+    <string name="choose_frequency_dialog_custom_interval">Stel een aangepast interval in</string>
+    <string name="choose_frequency_dialog_weekly">Wekelijks</string>
+    <string name="choose_frequency_dialog_every_other_day">Om de andere dag</string>
+    <string name="choose_frequency_dialog_daily">Dagelijks</string>
+    <string name="choose_frequency_dialog_multiple_daily">Meerdere keren per dag</string>
+
+    <!--Ask Overlay Permission Dialog Strings-->
+    <string name="ask_overlay_permission_dialog_title">Overlay</string>
+    <string name="ask_overlay_permission_dialog_message">Om alarmen te kunnen instellen, heeft Simpill toestemming nodig voor \'weergave boven andere applicaties\'.\n\n Als je op het volledige scherm alarmmeldingen wilt ontvangen, geef dan deze toestemming aan Simpill in je instellingen.\n\nLet op: je kunt deze toestemming op elk gewenst moment weer inschakelen via de instellingen van je apparaat.</string>
+
+    <!--Ask Overlay Permission Dialog Strings-->
+    <string name="alarm_or_notification_dialog_title">Alarm?</string>
+    <string name="alarm_or_notification_dialog_message">Wilt u aan deze medicatie herinnerd worden met een alarm of melding?</string>
+
+    <!--Date Time Formatting Strings (Very fragile, do not touch)-->
+
+
+    <string name="take_pill_content_description">Knop Pill innemen</string>
+    <string name="choose_times_per_day_dialog_message">Hoeveel keer per dag neemt u deze medicatie?</string>
+
+
+    <string name="btc_address_copied">BTC adres gekopieerd :)</string>
+    <string name="xmr_address_copied">XMR adres gekopieerd :)</string>
+
+    <string name="custom_interval_dialog_message">Stel een aangepast interval (in dagen) in voor uw medicatieherinnering met behulp van de onderstaande knoppen:</string>
+    <string name="custom_interval_dialog_title">Interval</string>
+
+
+    <string name="clocks_dialog_time_text">Tijd #%1$d</string> <!--1st parameter = time number e.g. 2-->
+    <string name="chooses_times_dialog_text">Stel de herinneringstijden voor uw medicatie in met behulp van de onderstaande klokken:</string>
+
+    <string name="context_menu_update">Bijwerken</string>
+    <string name="context_menu_delete">Verwijderen</string>
+    <string name="context_menu_change_color">Verander van kleur</string>
+    <string name="donation_dialog_message">Als je Simpill met plezier gebruikt, overweeg dan alsjeblieft een donatie te doen :)\n\nSimpill is volledig gratis en open-source zonder advertenties of trackers.\n\nJe kunt doneren via een van de onderstaande knoppen:</string>
+    <string name="reminder_already_taken_description">Je hebt je %1$s al ingenomen :)</string> <!--1st parameter = name of pill-->
+
+    <string name="paypal_donation_link" translatable="false">https://www.paypal.com/donate/?hosted_button_id=A8UNN2A4D3P3G</string>
+
+    <!--Use masculine for translations-->
+    <string name="blue">Blauw</string>
+    <string name="grey">Grijs</string>
+    <string name="dark">Donker</string>
+    <string name="purple">Paars</string>
+
+    <string name="dark_dialogs_setting">Donkere modes</string>
+    <string name="dark_dialogs_toast">Donkere modes toegepast :)</string>
+    <string name="light_dialogs_toast">Lichte modes toegepast :)</string>
+
+    <string name="dev_email">E-mail ontwikkelaar</string>
+    <string name="simpill_code">Simpill\'s code</string>
+    <string name="time_warning_toast">De tijden moeten minstens 15 minuten uit elkaar liggen.</string>
+    <string name="time_enter">Voer een tijd in voor elke klok.</string>
+    <string name="press_back_again_toast">Druk nogmaals op de knop Terug om af te sluiten.</string>
+
+    <string name="choose_start_date_dialog_title">Begindatum</string>
+    <string name="choose_start_date_dialog_message">Selecteer de begindatum voor je medicatie met behulp van de kalender hieronder.</string>
+    <string name="donate_dialog_title">Doneren</string>
+    <string name="donate_monero">Monero doneren</string>
+    <string name="donate_via_paypal">Doneren via Paypal</string>
+    <string name="choose_times_per_day_dialog_title">Herinneringen</string>
+
+    <string name="simpill_source_link" translatable="false">https://gitlab.com/simpilldev/simpill</string>
+    <string name="append_days_to_custom_interval">Elke %1$d dagen</string>
+    <string name="sound">Geluid</string>
+    <string name="sound_switch">App geluiden</string>
+    <string name="app_sounds_enabled">App geluiden ingeschakeld.</string>
+    <string name="app_sounds_disabled">App geluiden uitgeschakeld.</string>
+    <string name="donate_bitcoin">Bitcoin doneren</string>
+    <string name="pill_time_interval_text">Elke %1$d dagen, vanaf %2$s</string>
+    <string name="frequency">Frequentie:\n</string>
+    <string name="alarm_type_alarm">Type: Alarm</string> <!--1st parameter = name of pill    2nd parameter = date of first pill reminder     E.g. Every 4 days, starting 13/01/2023-->
+    <!--1st parameter = file name selected by user -->
+    <string name="alarm">Alarm</string>
+    <string name="notification">Melding</string>
+    <string name="dialog_message_textview">Stel de medicatietijden en het alarmtype in met de knoppen hieronder.</string>
+    <string name="reminder_times">Tijden:\n</string>
+    <string name="reminder_type">Herinnering Type:\n</string>
+    <string name="reminder_sound">Bestand:\n</string>
+    <string name="custom_alarm_dialog_title">Aangepast alarm?</string>
+    <string name="custom_alarm_dialog_message">Wilt u uw eigen audiobestand gebruiken of het standaard alarmgeluid van Simpill\'s?</string>
+    <string name="custom_alarm">Aangepast</string>
+    <string name="default_alarm">Standaard</string>
+    <string name="no_song_selected">Geen audiobestand geselecteerd.</string>
+    <string name="its_time">Het is %1$s!</string>
+    <string name="paypal">Paypal</string>
+    <string name="no_pills_found">Geen pillen gevonden.\n(╯°□°）╯︵ ┻━┻</string>
+    <string name="add">Toevoegen</string>
+    <string name="optional">Optioneel</string>
+    <string name="reminder">Herinnering</string>
+    <string name="times">Tijden?</string>
+    <string name="alarm_type">Alarmtype?</string>
+    <string name="user_reminder_times">Herinneringstijden:\n12:00pm,</string>
+    <string name="user_frequency">Frequentie:\nElke 3 dagen</string>
+    <string name="user_notification">Type:\nNotificatie</string>
+    <string name="user_alarm_sound">Geluid:\nOnheilsalarm</string>
+    <string name="crash_dialog_title">Oh neen :(</string>
+    <string name="report">rapport</string>
+    <string name="open">Open</string>
+    <string name="refill_dialog_msg">Selecteer een bijvuldatum met behulp van de kalender hieronder.</string>
+    <string name="past_date_dialog_title">Hmm...</string>
+    <string name="past_date_dialog_message">Tenzij je toegang hebt tot een TARDIS, kan de datum niet in het verleden worden ingesteld.</string> <!--1e parameter is de huidige tijd, bijv. 16:20-->
+</resources>
