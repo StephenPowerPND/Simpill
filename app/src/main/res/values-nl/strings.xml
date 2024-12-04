@@ -61,7 +61,7 @@
 
     <!--About Strings-->
     <string name="simpillAboutParagraph_1">Simpill is een gratis en open-source medicatieherinneringsapp zonder trackers, vervelende advertenties of onnodige toestemmingen.</string>
-    <string name="simpillAboutParagraph_2">Simpill is volledig gratis en genereert geen inkomsten uit advertenties of de verkoop van gegevens. Als je Simpill en de toekomstige ontwikkeling ervan wilt steunen, zijn er een aantal donatiemogelijkheden:</string>
+    <string name="simpillAboutParagraph_2">Simpill is volledig gratis en genereert geen inkomsten uit advertenties of de verkoop van gegevens.\n\nAls je Simpill en de toekomstige ontwikkeling ervan wilt steunen, zijn er een aantal donatiemogelijkheden:</string>
 
     <string name="monero" translatable="false">Monero</string>
     <string name="bitcoin" translatable="false">Bitcoin</string>
